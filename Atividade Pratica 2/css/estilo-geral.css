@@ -1,0 +1,19 @@
+.fundo{
+background-color: #01DFA5;
+}
+
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+}   
+
+.menu ul li a:hover {
+	Font-weight: bold;
+    color:#FACC2E;
+    padding: 3%;
+    border-bottom:3% solid #F5DA81;
+	display: none;
+}
