@@ -1,0 +1,60 @@
+.planodefundo{
+	background-color:#013ADF;
+	margin:0;
+	border:0px;
+}
+
+.fundo {
+background-color: #00FFFF;
+height:100%;
+width:100%;
+margin:0;
+
+}
+
+.menu ul{
+	list-style: none;
+	background-color:  #088A85; 
+	margin: 1;
+	text-align:center;
+	
+}
+
+.menu ul li{
+	display: inline;
+	
+}
+
+.menu ul li a{
+	display: inline-block;
+	padding: 2%;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	
+	
+}
+
+.menu ul li a:hover{
+	color:#6E6E6E;
+}
+
+.tamanhofonte{
+	font-size: 50%;
+	text-align: justify;
+	padding:5%;
+}
+
+.distanciar-imagem{
+	padding-left: 10%;
+	border:5%;
+	border-color:#0B173B;
+}
+
+.direitos{
+	text-align: center;
+	font-size: 2em;
+	background-color: #00BFFF;
+}
+
+
