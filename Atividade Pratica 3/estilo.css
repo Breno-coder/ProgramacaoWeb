@@ -1,0 +1,46 @@
+.conteudo {
+    border: 1 px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: aqua;
+    width: 150px;
+    margin: 20px;
+}
+
+.conteudo2 {
+    margin: 5px;
+    width: 150px;
+    border: 1px solid red;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.principal {
+    width: 920;
+    border: 1px solid red;
+}
+
+.noticia {
+    background: #e5e5e5;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.img-galeria {
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
