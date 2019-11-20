@@ -1,0 +1,16 @@
+.ex{
+    height: 2%;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.c1{
+    background-color: green;
+}
+.c2{
+    background-color: white;
+}
+.c3{
+    background-color: yellow;
+}
