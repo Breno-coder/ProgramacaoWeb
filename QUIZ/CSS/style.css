@@ -1,0 +1,27 @@
+html, body, #home{
+    height: 100%;
+}
+/*--------navbar----------*/
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}
+/*------------FORM----------------*/
+.form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/*-----------------seções--------------*/
+.sec{
+    background-color: black;
+}
