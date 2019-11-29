@@ -1,18 +1,17 @@
 html, body, #home{
     height: 100%;
 }
+html, body{
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*--------navbar----------*/
 nav.navbar-transparente{
     padding: 15px 0px;
     background: rgba(0,0,0,0.6);
 }
-
-.navbar-light .navbar-nav .nav-link{
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover{
-    color: black;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
 }
 /*------------FORM----------------*/
 .form{
@@ -24,4 +23,20 @@ nav.navbar-transparente{
 /*-----------------seções--------------*/
 .sec{
     background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.btn-custom{
+    color: white;
+    background-color: rgb(255, 255, 255, 0.3);
+    height: 3em;
+    width: 15em;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
 }
