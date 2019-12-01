@@ -1,52 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../QUIZ/CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+
+    <link rel="icon" href="../QUIZ/imagens/lamp.png">
     <title>Quiz</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
-            <div class="container">
-                <a href="index.html" class="navar-brand">
-                    <img src="../QUIZ/imagens/cada7cb098d82b647234ed76a2ece430-mountain-climbing-snow-by-vexels.png" width="100">
-                </a>
-
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav_principal">
-                    <i class="fas fa-mountain"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="nav_principal">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Pagina Inicial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="sobre.html" class="nav-link">Sobre</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+                <div class="container">
+                    <a href="index.html" class="navar-brand">
+                        <img src="../QUIZ/imagens/creativity.svg" width="100">
+                    </a>
+            
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav_principal">
+                        <i class="fas fa-bars"></i>
+                    </button>   
                 </div>
-            </div>
-        </nav>
+            </nav>
     </header>
 
-    <div id="home" class="d-flex">
+    <form class="d-flex">
         <div class="container align-self-center">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="titulo"> Quiz </p>
-                </div>
-                <a href="jogo.html" class="btn btn-lg btn-custom">Jogar</a>
+                <div class="login">
+                    <form>
+                    <label class="align-self-center"><h1 class="titulo"> LOGIN </h1></label><br>
+                    <input type="text" id="username" class="form-control campos" placeholder="Nome do usuario" required><br>
+                    <input type="password" id="senha" class="form-control " placeholder="Senha" required><br>
+                    <button class="btn btn-lg btn-block" id="entrar"> Entrar </button>
+                </form>
+                </div>  
             </div>
-        </div>
-    </div>
+        </div>     
+    </form>
+    <script type="text/javascript" src="../QUIZ/JS/index.js">
+
+    </script>
 </body>
 </html>

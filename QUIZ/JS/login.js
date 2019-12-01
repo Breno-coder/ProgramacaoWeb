@@ -3,6 +3,6 @@ let senha = document.getElementById("senha");
 let usernase = document.getElementById("username");
 btn.addEventListener("mousedown", function(){
 if (senha.value == "admin" && username.value == "admin") {
-    window.location.href = "introducao.html";
+    window.location.href = "index.html";
 }    
 });
