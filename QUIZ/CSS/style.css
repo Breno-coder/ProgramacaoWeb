@@ -1,0 +1,91 @@
+html, body, #home{
+    height: 100%;
+}
+html, body{
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--------navbar----------*/
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+/*------------FORM----------------*/
+.form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.login{
+    width: 40%;
+    height: 100%;
+    border: 15px solid linear-gradient(to right, #304352, #d7d2cc);
+    padding: 50px;
+    background-color: linear-gradient(to right, #304352, #d7d2cc);
+
+    display: block;
+    margin-top:15%;
+    margin-right:auto;
+    margin-bottom:15%;
+    margin-left:auto;
+}
+
+/*-----------------seções--------------*/
+.sec{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.btn-custom{
+    color: white;
+    background-color: rgb(255, 255, 255, 0.3);
+    height: 3em;
+    width: 15em;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+}
+
+
+/*---------------------jogo---------------------*/
+.div {
+    width: 70%;
+    height: 100%;
+    border: 15px solid linear-gradient(to right, #304352, #d7d2cc);
+    padding: 0px;
+    background-color: linear-gradient(to right, #304352, #d7d2cc);
+    
+    display: block;
+    margin-top:10%;
+    margin-right:auto;
+    margin-bottom:15%;
+    margin-left:auto;
+
+    text-decoration-color: white;
+}
+
+.pergunta{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.btn-avancar{
+    background-color: rgba(46, 46, 46, 0.651);
+    margin-left: 105%;
+    margin-top: 3%;
+}
+
+.btn-op{
+    width: auto;
+    height: 3em;
+}

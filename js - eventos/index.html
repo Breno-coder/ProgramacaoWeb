@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../js - eventos/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ex c1" >
+        <label onclick="this.innerHTML='Isso acontece quando usamos o onclick'">Clique em mim</label>
+        <br><hr>
+        <button ondblclick="this.innerHTML='Isso acontece quando usamos o ondblclick'">Dê um clique duplo aqui!</button>
+        <br><hr>
+        <label onmouseover="style.color='red'" onmouseout="style.color='black'">Passe o mouse sobre mim</label>
+        <br><hr>
+        <label onmousedown="cli(this, 'red')" onmouseup="cli(this, 'yellow')">Clique em mim e veja o que acontece!</label>
+        <br><hr>
+        <button onmousedown="inic()">Clique e segure!!</button>        
+        <br><hr>
+    </div>
+    <div class="ex c2" id="l">
+        <label>Digite algo no campo abaixo e em seguida click aqui frase</label>
+        <br>
+        <input type="text" id="bl" onblur="bl()">
+        <br><hr>
+        <label >Qual você prefere?</label>
+        <br>
+        <select id="escolha" onchange="ch()">
+            <option value="Pastel de Frango">Pastel de Frango</option>
+            <option value="Pastel de carne">Pastel de carne</option>
+            <option value="X-Bacon">X-Bacon</option>
+        </select>
+        <br><hr>
+        
+    </div>
+    <div class="ex c3">eth</div>
+    <script src="../js - eventos/JS/INDEX.JS"></script>
+</body>
+</html>
