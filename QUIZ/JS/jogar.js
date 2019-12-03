@@ -1,7 +1,8 @@
+document.documentElement.style.overflow = 'hidden';
+document.body.scroll = "no";
 let perguntar = document.getElementById("pergunta");
 let prox  = document.getElementById("proximo");
 let i=-1, k=0,certas=0, erradas=0, contadordevezes = 0;;
-
 let op = [document.getElementById("op1"), document.getElementById("op2"), document.getElementById("op3"), document.getElementById("op4"), document.getElementById("op5")];
 
 let quest = [
@@ -28,7 +29,7 @@ let btnResposta =   [["Document Object Model","Document Object Manipulate","Docu
                     ["Steve Jobs","Ada Lovelace","Rob Pike","Donald Knuth"],
                     ["Yukihiro Matsumoto","Grace Hopper","Donald Knuth","Roberto Ierusalimschy"]];
 
-let tempogasto = [];
+let tempogasto;
 
 prox.addEventListener("click", function(){
 i++;
@@ -38,11 +39,23 @@ prox.addEventListener("click",function alterbtn(){
     if (i < 11) {
         if (i == 10) {
             perguntar.innerHTML = `Respostas certas: ${certas} | Respostas erradas: ${erradas}`;
-            op[k].innerHTML = `1º - ${tempogasto[0]}.   | 2º - ${tempogasto[1]}. | 3º - ${tempogasto[2]}.`;
-            op[k+1].innerHTML = `4º - ${tempogasto[3]}. | 5º - ${tempogasto[4]}. |6º - ${tempogasto[5]}.`;
-            op[k+2].innerHTML = `7º - ${tempogasto[6]}. | 8º - ${tempogasto[7]}. |`;
-            op[k+3].innerHTML = `9º - ${tempogasto[8]}. | 10º - ${tempogasto[9]}.|`;
+            tempogasto = min +"m"+" : "+ sec + " s";
+            op[k].innerHTML = `Tempo Gasto: ${tempogasto}`;
+            op[k+1].remove();
+            op[k+3].remove();
             op[k+4].remove();
+            op[k+2].classList.add("btn-primary");
+            if (certas>7 && certas<10) {
+                op[k+2].innerHTML = " Muito bem!";
+            }
+
+            if (certas == 10) {
+                op[k+2].innerHTML = " Você Venceu!";
+            }
+
+            if (certas < 7) {
+                op[k+2].innerHTML = " Que pena!";
+            }
         }
         op[k].innerHTML = btnResposta[i][k];
         op[k+1].innerHTML = btnResposta[i][k+1];
@@ -56,9 +69,7 @@ prox.addEventListener("click",function alterbtn(){
             op[k+4].innerHTML = "Tempo Gasto : "+ min + "m"+" e "+ sec +"s"; 
             }, 10);
         }
-        tempogasto[i] = min +"m"+" : "+ sec + " s";
-        min=0;
-        sec=0;
+        
     }
     else
     {

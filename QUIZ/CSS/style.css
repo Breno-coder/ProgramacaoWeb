@@ -89,3 +89,22 @@ nav.navbar-transparente{
     width: auto;
     height: 3em;
 }
+
+/*----------sobre----------*/
+.txtsobre{
+    text-align: justify;
+    color: white;
+    font-size: x-large;
+
+}
+
+.img{
+    margin-top:auto;
+    margin-right:auto;
+    margin-bottom:15%;
+    margin-left:25%;
+}
+
+.vs-author{
+    color: white;
+}
