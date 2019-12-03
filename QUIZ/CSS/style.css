@@ -89,9 +89,3 @@ nav.navbar-transparente{
     width: auto;
     height: 3em;
 }
-
-/*----------------cronometro----------------*/
-.cronometro{
-    -ms-progress-appearance: ring;
-    color: chartreuse;
-}
